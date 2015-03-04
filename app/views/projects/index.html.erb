@@ -1,0 +1,4 @@
+<h1>Projects</h1>
+<% @Projects.each do |projects|%>
+<h2><%= link_to(projects.name, projects_path(projects)) %></h2>
+<% end %>
